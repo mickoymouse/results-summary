@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Results Summary</title>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="flex bg-white md:rounded-3xl md:shadow-lg overflow-hidden max-w-2xl flex-col md:flex-row">
+            <div class="flex-1 flex flex-col items-center h-auto rounded-b-3xl md:rounded-r-3xl p-6 bg-gradient-slate-to-royal">
+                <h3 class="pt-4 text-3xl text-slate-300">Your Result</h3>
+                <div class="mt-10 flex flex-col justify-center items-center w-44 h-44 rounded-full bg-gradient-violet-persian">
+                    <h4 class="text-6xl font-bold text-white">76</h4>
+                    <p class="font-light text-slate-300">of 100</p>
+                </div>
+                <div class="my-6 flex flex-col items-center">
+                    <h4 class="text-white text-3xl">Great</h4>
+                    <p class="text-center pt-2 text-slate-300">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <div class="flex-1 flex flex-col h-auto py-6 px-8">
+                <h3 class="text-3xl text-black pt-4">Summary</h3>
+                <div class="flex flex-col mt-6 gap-4">
+                    <div class="flex p-2 items-center bg-red-50 rounded-md">
+                        <div class="flex flex-1 items-center">
+                            <img src="/assets/images/icon-reaction.svg" alt="Your SVG Image" class="w-4 h-4" />
+                            <p class="text-red-400 font-bold text-sm ml-1">Reaction</p>
+                        </div>
+                        <div class="flex-1 flex ml-auto justify-end items-center">
+                            <p class="text-black font-bold">80</p>
+                            <p class="text-slate-400 font-bold ml-1">/ 100</p>
+                        </div>
+                    </div>
+                    <div class="flex p-2 items-center bg-yellow-50 rounded-md">
+                        <div class="flex flex-1 items-center">
+                            <img src="/assets/images/icon-memory.svg" alt="Your SVG Image" class="w-4 h-4" />
+                            <p class="text-yellow-400 font-bold text-sm ml-1">Memory</p>
+                        </div>
+                        <div class="flex-1 flex ml-auto justify-end items-center">
+                            <p class="text-black font-bold">92</p>
+                            <p class="text-slate-400 font-bold ml-1">/ 100</p>
+                        </div>
+                    </div>
+                    <div class="flex p-2 items-center bg-green-50 rounded-md">
+                        <div class="flex flex-1 items-center">
+                            <img src="/assets/images/icon-verbal.svg" alt="Your SVG Image" class="w-4 h-4" />
+                            <p class="text-green-400 font-bold text-sm ml-1">Verbal</p>
+                        </div>
+                        <div class="flex-1 flex ml-auto justify-end items-center">
+                            <p class="text-black font-bold">61</p>
+                            <p class="text-slate-400 font-bold ml-1">/ 100</p>
+                        </div>
+                    </div>
+                    <div class="flex p-2 items-center bg-blue-50 rounded-md">
+                        <div class="flex flex-1 items-center">
+                            <img src="/assets/images/icon-visual.svg" alt="Your SVG Image" class="w-4 h-4" />
+                            <p class="text-blue-400 font-bold text-sm ml-1">Visual</p>
+                        </div>
+                        <div class="flex-1 flex ml-auto justify-end items-center">
+                            <p class="text-black font-bold">72</p>
+                            <p class="text-slate-400 font-bold ml-1">/ 100</p>
+                        </div>
+                    </div>
+                    <button
+                        class="bg-blue-950 hover:bg-blue-800 focus:ring-2 focus:ring-blue-800 focus:ring-opacity-50 
+                        text-white font-semibold p-2 rounded-full mt-4">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

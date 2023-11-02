@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-slate-to-royal {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.bg-gradient-violet-persian {
+    background: linear-gradient(180deg, hsl(256, 72%, 46%, 1), hsl(241, 72%, 46%, 0));
+}
